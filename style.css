@@ -1,7 +1,11 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
 }
+
+/* MENU DE NAVEGAÇÃO PRINCIPAL */
 
 #principal{
     width: 100%;
@@ -13,36 +17,36 @@ body{
     border-bottom: 1px solid #BABABA;
 }
 
-#principal a {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    font-family: 'Inter';
-}
+    #principal a {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+        font-family: 'Inter';
+    }
 
     #principal a:hover{
         color: #CCCCCC;
     }
 
-#menu{
-    display: flex;
-    width: 45%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 5%;
-}
+    #menu{
+        display: flex;
+        width: 45%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%;
+    }
 
-#principal button{
-    margin-right: 5%;
-    background-color: #0C70F2;
-    border: 0px;
-    height: 35px;
-    width: 70px;
-    color: white;
-    font-family: 'inter';
-    font-size: 15px;
-    font-weight: 600;
-    box-shadow: 3px 2px 4px #0C70F240;
-    cursor: pointer;
-}
+    #principal button{
+        margin-right: 5%;
+        background-color: #0C70F2;
+        border: 0px;
+        height: 35px;
+        width: 70px;
+        color: white;
+        font-family: 'inter';
+        font-size: 15px;
+        font-weight: 600;
+        box-shadow: 3px 2px 4px #0C70F240;
+        cursor: pointer;
+    }
