@@ -44,5 +44,5 @@ body{
     font-size: 15px;
     font-weight: 600;
     box-shadow: 3px 2px 4px #0C70F240;
-
+    cursor: pointer;
 }
