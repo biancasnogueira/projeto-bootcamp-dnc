@@ -230,6 +230,7 @@ body{
         color:white;
         text-align: center;
         width:20%;
+        height: 150px;
     }
 
     footer .linha2{
@@ -300,7 +301,7 @@ body{
         }
     
         .checkbox-itens label{
-            font-size:17px;
+            font-size:15px;
         }
     
         /* Footer */
